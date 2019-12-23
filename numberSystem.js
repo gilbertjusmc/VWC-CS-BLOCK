@@ -11,6 +11,19 @@ Bonus:
 - Or you can find the mathematical shortcut, up to you how much time you want to spend
 */
 
-function NumberSystem() {
-
+function binaryToDecimal(number) {
+	let decimalNumber = parseInt(0, 2);
+	console.log(decimalNumber);
+	for (let iterate = 0; iterate < number.length; iterate++) {
+		console.log(decimalNumber + '')
+		decimalNumber *= 2;
+		decimalNumber += +number[iterate];
+	}
+	return decimalNumber;
 }
+console.log(binaryToDecimal(1010));  // Output should be 10
+
+// hexToDecimal() {
+
+// }
+
