@@ -19,7 +19,4 @@ intToString(5);
 console.log(' '); // Add space for readability
 intToString(-2);
 
-// console.log(input + ' = ' + typeof (input));
-// let converted = '' + input;
-// console.log('After conversion...');
-// console.log(converted + ' = ' + typeof (converted));
+
