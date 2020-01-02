@@ -113,7 +113,7 @@ console.log(`Hexadecimal to Decimal`);
 h2d.p(`Hexadecimal:"141" to Decimal:${h2d.hexToDec("141")}`);
 h2d.p(`Hexadecimal:"FD" to Decimal:${h2d.hexToDec("FD")}`);
 h2d.p(`Hexadecimal:"D0" to Decimal:${h2d.hexToDec("D0")}`);
-h2d.p(`Hexadecimal:"DC" to Decimal:${h2d.hexToDec("DC")}`);
+h2d.p(`Hexadecimal:"9" to Decimal:${h2d.hexToDec("9")}`);
 console.log(`-------------`);
 //hexToBin(num)
 let h2b = new NumberSystem();
